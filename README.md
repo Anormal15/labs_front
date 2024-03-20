@@ -1,2 +1,2 @@
-# labs_front
-<h1>Repositório da diciplina front end</h1>
+# LABS_FRONT
+<h1>Repositório da disciplina Front End / Kauan Nogueira</h1>
