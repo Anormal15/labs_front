@@ -1,0 +1,51 @@
+:root{
+    --cor-base: #000000;
+    --cor-fundo-img: #dbdbdb;
+    --cor-borda-img: #949494;
+    --cor-menu: #17214b;
+}
+.sacola{
+    background: url(../img/sacola.png) no-repeat top right;
+    font-size: 14px;
+    padding-right: 35px;
+    padding-top: 8px;
+    text-align: right;
+    width: 140px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.menu-opcoes ul li{
+    font-size:  15px;
+    display: inline;
+    margin-left: 20px;
+}
+
+.menu-opcoes a{
+    color: var(--cor-menu);
+}
+
+.menu-opcoes{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+body {
+    color: var(--cor-base);
+    font-family: "Raleway", sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    margin: 0 auto;
+    width: 90%;
+}
+
+header{
+    position: relative;
+}
