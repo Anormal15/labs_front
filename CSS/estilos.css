@@ -4,6 +4,7 @@
     --cor-borda-img: #949494;
     --cor-menu: #17214b;
 }
+
 .sacola{
     background: url(../img/sacola.png) no-repeat top right;
     font-size: 14px;
@@ -92,4 +93,52 @@ header{
     transform: scale(1.05);
 }
 
-    
+.painel {
+    margin: 10px 0;
+    padding: 10px;
+    width: 445px;
+} 
+
+.novidades {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center ;
+    height: 250px;
+    width: 100%;
+    float: left;
+    background-color: #f5dcdc;
+}
+
+.mais-vendidos {
+    display: flex;
+    height: 250px;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #dcdcf5;
+}
+
+.painel h2 {
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.painel a {
+    color: #333;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+.painel li {
+    display: inline-block;
+    vertical-align: top;
+    width: 140px;
+    margin: 2px;
+    padding-bottom: 10px;
+}
